@@ -91,7 +91,7 @@ function pentagonareaCalculate(target){
 function ellipseareaCalculate(target){
     const Base = target.parentNode.childNodes[5].childNodes[1].childNodes[0].value;
     const Hight = target.parentNode.childNodes[5].childNodes[3].childNodes[0].value;
-    const area = 0.5 * Base* Hight;
+    const area = 3.1416 * Base* Hight;
     setElementbyValue("ellipse-area" , area);
     CreatAttribute ("ellipse-h1",area);
 
